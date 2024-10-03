@@ -23,6 +23,7 @@ void main(void)
             Delay_Ms(40);
             GPIO_WriteBit(GPIOD, GPIO_Pin_2, RESET);
             GPIO_WriteBit(GPIOD, GPIO_Pin_3, RESET);
+
             state++;
 
             if(state > 4)
